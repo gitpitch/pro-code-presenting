@@ -1,47 +1,11 @@
+/* Pro Code Presenting Custom Styles */
 
 .text-85 { font-size: 0.85em !important; }
+
 .text-darkgray { color: darkgray !important; }
 
-.zoom-01 { font-size: 0.1em !important; line-height: 1.5 !important; }
-.zoom-02 { font-size: 0.2em !important; line-height: 1.5 !important; }
-.zoom-03 { font-size: 0.3em !important; line-height: 1.5 !important; }
-.zoom-04 { font-size: 0.4em !important; line-height: 1.5 !important; }
-.zoom-05 { font-size: 0.5em !important; line-height: 1.5 !important; }
-.zoom-06 { font-size: 0.6em !important; line-height: 1.5 !important; }
-.zoom-07 { font-size: 0.7em !important; line-height: 1.5 !important; }
-.zoom-08 { font-size: 0.8em !important; line-height: 1.5 !important; }
-.zoom-09 { font-size: 0.9em !important; line-height: 1.5 !important; }
-.zoom-11 { font-size: 1.1em !important; line-height: 1.2 !important; }
-.zoom-12 { font-size: 1.2em !important; line-height: 1.2 !important; }
-.zoom-13 { font-size: 1.3em !important; line-height: 1.2 !important; }
-.zoom-14 { font-size: 1.4em !important; line-height: 1.2 !important; }
-.zoom-15 { font-size: 1.5em !important; line-height: 1.2 !important; }
-.zoom-16 { font-size: 1.6em !important; line-height: 1.2 !important; }
-.zoom-17 { font-size: 1.7em !important; line-height: 1.2 !important; }
-.zoom-18 { font-size: 1.8em !important; line-height: 1.1 !important; }
-.zoom-19 { font-size: 1.9em !important; line-height: 1.1 !important; }
-.zoom-20 { font-size: 2.0em !important; line-height: 1.1 !important; }
-.zoom-21 { font-size: 2.1em !important; line-height: 1.1 !important; }
-.zoom-22 { font-size: 2.2em !important; line-height: 1.1 !important; }
-.zoom-23 { font-size: 2.3em !important; line-height: 1.1 !important; }
-.zoom-24 { font-size: 2.4em !important; line-height: 1.1 !important; }
-.zoom-25 { font-size: 2.5em !important; line-height: 1.1 !important; }
-.zoom-30 { font-size: 3.0em !important; line-height: 1.1 !important; }
-
-.bg-none { background: none !important; }
-
-.reveal .slides section .code-presenting-annotation {
-  color: lightgray;
-  padding: 0px 15px;
-  border-radius: 15px;
-  opacity: 0.75 !important;
-  font-size: 0.6em !important;
-}
-
-#title-footer p.footer-hard { color: white; }
-#title-footer a { color: white; }
-
 /* Global Reveal Pre Code Overrides */
+
 .reveal pre {
   width: 98%;
   margin: 0px;
@@ -54,11 +18,24 @@
   overflow: hidden !important;
 }
 
+
 @media (device-width: 100vw) and (device-height: 100vh) {
   .reveal pre code {
     max-height: 50vh !important;
   }
 }
+
+.reveal .slides section .code-presenting-annotation {
+  color: lightgray;
+  padding: 0px 15px;
+  border-radius: 15px;
+  opacity: 0.75 !important;
+  font-size: 0.6em !important;
+}
+
+#title-footer p.footer-hard { color: white; }
+
+#title-footer a { color: white; }
 
 /* GitPitch Pro Fonts Style Imports */
 @font-face {
@@ -73,18 +50,5 @@
   text-shadow: none !important;
   text-transform: none !important;
   font-family: "Montserrat Heavy", sans-serif !important;
-}
-@font-face {
-  font-family: 'Ubuntu Medium';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/assets/fonts/ubuntu-medium.woff2') format('woff2'),
-       url('/assets/fonts/ubuntu-medium.woff') format('woff');
-}
-.ubuntu-medium,
-.ubuntu-medium * {
-  text-shadow: none !important;
-  text-transform: none !important;
-  font-family: "Ubuntu Medium", sans-serif !important;
 }
 

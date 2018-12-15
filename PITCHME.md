@@ -188,7 +188,7 @@ Custom zoom on a GIST source code snippet.
 @title[Present Like A Pro]
 
 @snap[north-west h4-gray]
-#### Present @css[text-darkgray text-bold]({ @css[text-gold](your) , code }) like a **Pro**.
+#### Present @css[text-gold text-bold]({)@css[text-darkgray text-bold]( your , code ) @css[text-gold text-bold](}) like a **Pro**.
 @snapend
 
 @snap[south-west montserrat-heavy h3-white h4-gray span-100]
