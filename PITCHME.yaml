@@ -42,6 +42,12 @@ footnote : "GitPitch - The Fastest Way From Idea To Presentation"
 layout : center
 
 #
+# Print Fragments Setting
+# DOC: https://gitpitch.com/docs/settings/print-fragments
+#
+print-fragments : true
+
+#
 # Twitter Card Settings
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
