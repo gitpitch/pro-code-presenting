@@ -67,7 +67,7 @@ Remember, you can easily blend a code block with the slide background using **co
 
 @snap[south span-100]
 @[1, zoom-25](You can even step-and-zoom into selected sections of code directly on your slides.)
-@[3, zoom-25](Using GitPitch live code presentating with optional annotations.)
+@[3, zoom-25](Using GitPitch live code presenting with optional annotations.)
 @[5,7, zoom-20](Allowing you to drill-down into your code and focus your audience's attention.)
 @snapend
 
