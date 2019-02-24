@@ -67,7 +67,7 @@ Remember, you can easily blend a code block with the slide background using **co
 
 @snap[south span-100]
 @[1, zoom-25](You can even zoom-in on individual lines and ranges of code directly on your slides.)
-@[3, zoom-25](By using the build-in zoom CSS styles within GitPitch live code presentating tags.)
+@[3, zoom-25](By using the build-in zoom CSS styles within GitPitch live code presenting tags.)
 @[5-7](Allowing you to drill-down into your code and provide clear focus for your audience.)
 @snapend
 
