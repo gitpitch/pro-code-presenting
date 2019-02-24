@@ -66,9 +66,9 @@ Remember, you can easily blend a code block with the slide background using **co
 @code[golang zoom-21](src/go/sample.go)
 
 @snap[south span-100]
-@[1, zoom-25](You can even zoom-in on individual lines and ranges of code directly on your slides.)
-@[3, zoom-25](By using the built-in zoom CSS styles within GitPitch live code presenting tags.)
-@[5-7](Allowing you to drill-down into your code and provide clear focus for your audience.)
+@[1, zoom-25](You can even step-and-zoom into selected sections of code directly on your slides.)
+@[3, zoom-25](Using GitPitch live code presentating with optional annotations.)
+@[5,7, zoom-20](Allowing you to drill-down into your code and focus your audience's attention.)
 @snapend
 
 @snap[north-east span-100 text-05]
@@ -159,7 +159,7 @@ Standard display of a **Tree Directory Structure** snippet.
 
 @snap[south span-100]
 @[2, zoom-30](You can also step-through, and zoom-in on any text-based file content in your repo.)
-@[4-16, zoom-11](That includes log files, console output, data files, directory structures, etc.)
+@[4-16](That includes log files, console output, data files, directory structures, etc.)
 @snapend
 
 @snap[north-east span-100 text-05]
