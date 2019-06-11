@@ -20,22 +20,6 @@
 #### Zoom-in, zoom-out, and step-through @css[text-11 text-italic](source code) on any slide within your deck.
 @snapend
 
----?code=src/go/sample.go&lang=golang
-@title[Code Delimiter Syntax]
-
-@snap[north-east span-100 text-05]
-You can inject code from any repository source file onto a slide using [code delimiter syntax @fa[external-link]](https://gitpitch.com/docs/code-features/source-files).
-@snapend
-
----
-@title[Code Shortcut Syntax]
-
-@code[golang](src/go/sample.go)
-
-@snap[north-east span-100 text-05]
-But to take advantage of pro rendering capabilities for your source code, use [&#64;code shortcut syntax @fa[external-link]](https://gitpitch.com/docs/markdown-features/pro-widgets).<br>By default, the result is the same. A nicely highlighted code block on your slide.
-@snapend
-
 ---
 @title[Zoom-Out Example]
 
@@ -51,24 +35,16 @@ But to take advantage of pro rendering capabilities for your source code, use [&
 To _**zoom-out**_ on a code block, use **&#64;code shortcut syntax** and one of the **built-in zoom** CSS styles.<br>This approach gives you a nice way way to introduce code on upcoming slides.
 @snapend
 
----?color=#333
-@title[Blend Code Background]
-
-@code[golang](src/go/sample.go)
-
-@snap[north-east span-100 text-05]
-Remember, you can easily blend a code block with the slide background using **color delimiter syntax**.
-@snapend
-
----?color=#333
+---
 @title[Zoom-In Example]
 
-@code[golang zoom-21](src/go/sample.go)
+@code[golang code-power zoom-20](src/go/sample.go)
 
 @snap[south span-100]
 @[1, zoom-25](You can even step-and-zoom into selected sections of code directly on your slides.)
 @[3, zoom-25](Using GitPitch live code presenting with optional annotations.)
 @[5,7, zoom-20](Allowing you to drill-down into your code and focus your audience's attention.)
+@[6](Allowing you to drill-down into your code and focus your audience's attention.)
 @snapend
 
 @snap[north-east span-100 text-05]
@@ -81,103 +57,112 @@ To _**zoom-in**_ on a code block, use **&#64;code shortcut syntax** and one of t
 ### Further code examples...
 @snapend
 
----?code=src/css/sample.css
+---
 @title[Standard CSS Snippet]
 
 @snap[north-east span-100 text-05]
 Standard display of a **CSS Stylesheet** snippet.
 @snapend
 
+@code[css code-power](src/css/sample.css)
+
 ---
 @title[Zoomed CSS Snippet]
 
-@code[css zoom-18](src/css/sample.css)
+@code[css code-power zoom-19](src/css/sample.css)
 
 @snap[north-east span-100 text-05]
 Custom zoom on a **CSS Stylesheet** snippet.
 @snapend
 
----?code=src/php/sample.php&lang=php&color=#333
+---
 @title[Standard PHP Snippet]
 
 @snap[north-east span-100 text-05]
 Standard display of a **PHP Code** snippet.
 @snapend
 
----?color=#333
+@code[php code-power](src/php/sample.php)
+
+---
 @title[Zoomed PHP Snippet]
 
-@code[php zoom-19](src/php/sample.php)
+@code[php code-power zoom-19](src/php/sample.php)
 
 @snap[north-east span-100 text-05]
 Custom zoom on a **PHP Code** snippet.
 @snapend
 
----?code=src/http/sample.http&lang=http
+---
 @title[Standard HTTP Snippet]
 
 @snap[north-east span-100 text-05]
 Standard display of **HTTP Response Data** snippet.
 @snapend
 
+@code[http code-power](src/http/sample.http)
+
 ---
 @title[Zoomed HTTP Snippet]
 
-@code[http zoom-15](src/http/sample.http)
+@code[http code-power zoom-15](src/http/sample.http)
 
 @snap[north-east span-100 text-05]
 Custom zoom on a **HTTP Response Data** snippet.
 @snapend
 
----?code=src/sql/sample.sql&lang=sql&color=#333
+---
 @title[Standard SQL Snippet]
 
 @snap[north-east span-100 text-05]
 Standard display of a **SQL** snippet.
 @snapend
 
----?color=#333
+@code[sql code-power](src/sql/sample.sql)
+
+---
 @title[Zoomed SQL Snippet]
 
-@code[sql zoom-19](src/sql/sample.sql)
+@code[sql code-power zoom-19](src/sql/sample.sql)
 
 @snap[north-east span-100 text-05]
 Custom zoom on a **SQL** snippet.
 @snapend
 
----?code=src/tree/sample.txt&lang=text&color=#333
+---
 @title[Standard Tree Snippet]
 
 @snap[north-east span-100 text-05]
 Standard display of a **Tree Directory Structure** snippet.
 @snapend
 
----?color=#333
+@code[text code-power](src/tree/sample.txt)
+
+---
 @title[Zoomed Tree Snippet]
 
-@code[text zoom-13](src/tree/sample.txt)
+@code[text code-power zoom-13](src/tree/sample.txt)
 
 @snap[south span-100]
 @[2, zoom-30](You can also step-through, and zoom-in on any text-based file content in your repo.)
-@[4-16](That includes log files, console output, data files, directory structures, etc.)
+@[7-9, zoom-14](That includes log files, console output, data files, directory structures, etc.)
 @snapend
 
 @snap[north-east span-100 text-05]
 Custom zoom on a **Tree Directory Structure** snippet.
 @snapend
 
----?gist=ValeriiVasin/1548808
+---?gist=ValeriiVasin/1548808&color=#333
 @title[Standard GIST Snippet]
 
 @snap[north-east span-100 text-05]
-You can also render any **GitHub GIST** on your slides using [&#64;gist shortcut syntax](https://gitpitch.com/docs/markdown-features/pro-widgets).<br>
 Standard display of GIST source code snippet.
 @snapend
 
 ---
 @title[Zoomed GIST Snippet]
 
-@gist[js zoom-20](ValeriiVasin/1548808)
+@gist[js code-power zoom-20](ValeriiVasin/1548808)
 
 @snap[north-east span-100 text-05]
 Custom zoom on a GIST source code snippet.
