@@ -4,27 +4,6 @@
 
 .text-darkgray { color: darkgray !important; }
 
-/* Global Reveal Pre Code Overrides */
-
-.reveal pre {
-  width: 98%;
-  margin: 0px;
-  box-shadow: none;
-}
-
-.reveal pre code {
-  border-radius: 10px;
-  max-height: 60vh !important;
-  overflow: hidden !important;
-}
-
-
-@media (device-width: 100vw) and (device-height: 100vh) {
-  .reveal pre code {
-    max-height: 50vh !important;
-  }
-}
-
 .reveal .slides section .code-presenting-annotation {
   color: lightgray;
   padding: 0px 15px;

@@ -8,7 +8,7 @@ published : true
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : simple
+theme : template
 
 #
 # Theme-Override Setting
@@ -20,7 +20,7 @@ theme-override : assets/css/PITCHME.css
 # Highlight (Code) Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : agate
+highlight : ir-black
 
 #
 # Logo Setting

@@ -1,16 +1,28 @@
 .
 ├── PITCHME.md
-└── template
-    └── md
-        ├── about/PITCHME.md
-        ├── announcement/PITCHME.md
-        ├── boxed-content/PITCHME.md
-        ├── code-presenting/PITCHME.md
-        ├── header-footer/PITCHME.md
-        ├── image/PITCHME.md
-        ├── list-content/PITCHME.md
-        ├── quotation/PITCHME.md
-        ├── sidebar/PITCHME.md
-        ├── sidebox/PITCHME.md
-        ├── split-screen/PITCHME.md
-        └── wrap-up/PITCHME.md
+├── PITCHME.yaml
+├── common
+│   ├── about
+│   │   └── PITCHME.md
+│   └── contact
+│       └── PITCHME.md
+└── training
+    └── topics
+        ├── css
+        │   ├── PITCHME.md
+        │   ├── selectors
+        │   │   └── PITCHME.md
+        │   └── syntax
+        │       └── PITCHME.md
+        ├── html
+        │   ├── PITCHME.md
+        │   ├── attributes
+        │   │   └── PITCHME.md
+        │   └── tags
+        │       └── PITCHME.md
+        └── js
+            ├── PITCHME.md
+            ├── callbacks
+            │   └── PITCHME.md
+            └── objects
+                └── PITCHME.md

@@ -6,11 +6,11 @@
 @snapend
 
 @snap[east span-40]
-@code[go zoom-06](src/go/sample.go)
+@code[go code-noblend zoom-05](src/go/sample.go)
 <br>
-@code[http zoom-06](src/http/sample.http)
+@code[http zoom-05](src/http/sample.http)
 <br>
-@code[sql zoom-06](src/sql/sample.sql)
+@code[sql zoom-05](src/sql/sample.sql)
 @snapend
 
 ---
@@ -24,7 +24,7 @@
 @title[Zoom-Out Example]
 
 @snap[west span-40]
-@code[golang zoom-07](src/go/sample.go)
+@code[golang code-noblend zoom-07](src/go/sample.go)
 @snapend
 
 @snap[east montserrat-heavy span-50]
@@ -141,11 +141,11 @@ Standard display of a **Tree Directory Structure** snippet.
 ---
 @title[Zoomed Tree Snippet]
 
-@code[text code-power zoom-13](src/tree/sample.txt)
+@code[text code-power zoom-15](src/tree/sample.txt)
 
 @snap[south span-100]
-@[2, zoom-30](You can also step-through, and zoom-in on any text-based file content in your repo.)
-@[7-9, zoom-14](That includes log files, console output, data files, directory structures, etc.)
+@[1-3, zoom-20](You can also step-through, and zoom-in on any text-based file content in your repo.)
+@[4-9, zoom-18](That includes log files, console output, data files, directory structures, etc.)
 @snapend
 
 @snap[north-east span-100 text-05]
@@ -171,17 +171,5 @@ Custom zoom on a GIST source code snippet.
 ---
 @title[Documentation Link]
 
-#### See the [Markdown Pro Widgets Guide](https://gitpitch.com/docs/markdown-features/pro-widgets) for further details.
-
----?image=assets/img/presenter.jpg
-@title[Present Like A Pro]
-
-@snap[north-west h4-gray]
-#### Present @css[text-gold text-bold]({)@css[text-darkgray text-bold]( your , code ) @css[text-gold text-bold](}) like a **Pro**.
-@snapend
-
-@snap[south-west montserrat-heavy h3-white h4-gray span-100]
-#### With
-### GitPitch @css[text-gold](Code) Presenting
-@snapend
+#### For further details, see the<br>[Markdown Pro Widgets Guide](https://gitpitch.com/docs/markdown-features/pro-widgets).
 
