@@ -17,7 +17,7 @@
 @title[Live Code Presenting]
 
 @snap[west montserrat-heavy span-100]
-#### Zoom-in, zoom-out, and step-through @css[text-11 text-italic](source code) on any slide within your deck.
+#### Zoom-in, zoom-out, and step-through **source code** on any slide within your deck.
 @snapend
 
 ---
@@ -32,7 +32,7 @@
 @snapend
 
 @snap[north-east span-100 text-05]
-To _**zoom-out**_ on a code block, use **&#64;code shortcut syntax** and one of the **built-in zoom** CSS styles.<br>This approach gives you a nice way way to introduce code on upcoming slides.
+Activate any one of the built-in `zoom-out` properties to shrink code on your slide.<br>A great way to create a code `thumbnail` on any slide.
 @snapend
 
 ---
@@ -47,8 +47,8 @@ To _**zoom-out**_ on a code block, use **&#64;code shortcut syntax** and one of 
 @[6](Allowing you to drill-down into your code and focus your audience's attention.)
 @snapend
 
-@snap[north-east span-100 text-05]
-To _**zoom-in**_ on a code block, use **&#64;code shortcut syntax** and one of the **built-in zoom** CSS styles.
+@snap[north-east span-100 text-05 text-white]
+Activate any one of the built-in `zoom-in` properties to magnify code on your slide.
 @snapend
 
 ---
@@ -61,7 +61,7 @@ To _**zoom-in**_ on a code block, use **&#64;code shortcut syntax** and one of t
 @title[Standard CSS Snippet]
 
 @snap[north-east span-100 text-05]
-Standard display of a **CSS Stylesheet** snippet.
+Standard display of a sample CSS Stylesheet.
 @snapend
 
 @code[css code-power](src/css/sample.css)
@@ -72,14 +72,14 @@ Standard display of a **CSS Stylesheet** snippet.
 @code[css code-power zoom-19](src/css/sample.css)
 
 @snap[north-east span-100 text-05]
-Custom zoom on a **CSS Stylesheet** snippet.
+Custom zoom on that same sample CSS Stylesheet.
 @snapend
 
 ---
 @title[Standard PHP Snippet]
 
 @snap[north-east span-100 text-05]
-Standard display of a **PHP Code** snippet.
+Standard display of some sample PHP code.
 @snapend
 
 @code[php code-power](src/php/sample.php)
@@ -90,14 +90,14 @@ Standard display of a **PHP Code** snippet.
 @code[php code-power zoom-19](src/php/sample.php)
 
 @snap[north-east span-100 text-05]
-Custom zoom on a **PHP Code** snippet.
+Custom zoom on that same sample PHP code.
 @snapend
 
 ---
 @title[Standard HTTP Snippet]
 
 @snap[north-east span-100 text-05]
-Standard display of **HTTP Response Data** snippet.
+Standard display of some sample HTTP Response Data.
 @snapend
 
 @code[http code-power](src/http/sample.http)
@@ -108,14 +108,14 @@ Standard display of **HTTP Response Data** snippet.
 @code[http code-power zoom-15](src/http/sample.http)
 
 @snap[north-east span-100 text-05]
-Custom zoom on a **HTTP Response Data** snippet.
+Custom zoom on that same sample HTTP Response Data.
 @snapend
 
 ---
 @title[Standard SQL Snippet]
 
 @snap[north-east span-100 text-05]
-Standard display of a **SQL** snippet.
+Standard display of some sample SQL syntax.
 @snapend
 
 @code[sql code-power](src/sql/sample.sql)
@@ -126,14 +126,14 @@ Standard display of a **SQL** snippet.
 @code[sql code-power zoom-19](src/sql/sample.sql)
 
 @snap[north-east span-100 text-05]
-Custom zoom on a **SQL** snippet.
+Custom zoom on that same sample SQL syntax.
 @snapend
 
 ---
 @title[Standard Tree Snippet]
 
 @snap[north-east span-100 text-05]
-Standard display of a **Tree Directory Structure** snippet.
+Standard display of a sample Tree Directory.
 @snapend
 
 @code[text code-power](src/tree/sample.txt)
@@ -149,14 +149,14 @@ Standard display of a **Tree Directory Structure** snippet.
 @snapend
 
 @snap[north-east span-100 text-05]
-Custom zoom on a **Tree Directory Structure** snippet.
+Custom zoom on that same sample Tree Directory.
 @snapend
 
 ---?gist=ValeriiVasin/1548808&color=#333
 @title[Standard GIST Snippet]
 
 @snap[north-east span-100 text-05]
-Standard display of GIST source code snippet.
+Standard display of a sample GitHub GIST.
 @snapend
 
 ---
@@ -165,7 +165,7 @@ Standard display of GIST source code snippet.
 @gist[js code-power zoom-20](ValeriiVasin/1548808)
 
 @snap[north-east span-100 text-05]
-Custom zoom on a GIST source code snippet.
+Custom zoom on that same sample GitHub GIST.
 @snapend
 
 ---
